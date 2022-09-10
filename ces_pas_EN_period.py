@@ -15,6 +15,6 @@ def pas(smeshenie):
         if i in ' ,.?!':
             print(i, end='')
 
-for j in range(0, 25):
+for j in range(0, 25): #расшифровка
     pas(j)
     print(end='\n')
